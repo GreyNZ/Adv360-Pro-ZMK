@@ -36,11 +36,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL           &kp N1     &kp N2     &kp N3     &kp N4     &kp N5  &tog 1                                                                              &mo 3                  &kp N6  &kp N7     &kp N8     &kp N9     &kp N0         &kp MINUS
-&kp ESCAPE          &kp Q      &kp W      &kp F      &kp P      &kp B   &none                                                                               &none                  &kp J   &kp L      &kp U      &kp Y      &kp SEMICOLON  &kp BSLH
-&kp LS(UNDERSCORE)  &kp LG(A)  &kp LA(R)  &kp LC(S)  &kp LS(T)  &kp G   &none                  &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL            &none                  &kp M   &kp RS(N)  &kp RC(E)  &kp RA(I)  &kp RG(O)      &kp RS(SQT)
-&kp GRAVE           &kp Z      &kp X      &kp C      &kp D      &kp V                                         &kp HOME      &kp PG_UP                                              &kp K   &kp H      &kp COMMA  &kp DOT    &kp FSLH       &kp K_UNDO
-&mo 2               &kp GRAVE  &kp CAPS   &kp LEFT   &kp RIGHT          &HT_TAP_LAYER 1 SPACE  &kp BACKSPACE  &kp END       &kp PG_DN  &HT_TAP_LAYER 3 TAB  &HT_TAP_LAYER 2 ENTER          &kp UP     &kp DOWN   &kp LBKT   &kp RBKT       &mo 2
+&kp EQUAL             &kp N1          &kp N2          &kp N3              &kp N4            &kp N5  &tog 1                                                                              &mo 3                  &kp N6  &kp N7             &kp N8               &kp N9     &kp N0           &kp MINUS
+&kp ESCAPE            &kp Q           &kp W           &kp F               &kp P             &kp B   &none                                                                               &none                  &kp J   &kp L              &kp U                &kp Y      &kp SEMICOLON    &kp BSLH
+&hm LEFT_SHIFT UNDER  &hm LEFT_GUI A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G   &none                  &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL            &none                  &kp M   &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &kp RA(I)  &hm RIGHT_GUI O  &hm RIGHT_SHIFT SINGLE_QUOTE
+&kp GRAVE             &kp Z           &kp X           &kp C               &kp D             &kp V                                         &kp HOME      &kp PG_UP                                              &kp K   &kp H              &kp COMMA            &kp DOT    &kp FSLH         &kp K_UNDO
+&mo 2                 &kp GRAVE       &kp CAPS        &kp LEFT            &kp RIGHT                 &HT_TAP_LAYER 1 SPACE  &kp BACKSPACE  &kp END       &kp PG_DN  &HT_TAP_LAYER 3 TAB  &HT_TAP_LAYER 2 ENTER          &kp UP             &kp DOWN             &kp LBKT   &kp RBKT         &mo 2
             >;
         };
 
